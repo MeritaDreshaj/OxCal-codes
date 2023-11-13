@@ -1,6 +1,5 @@
  Options()
  {
-  Boundary("Start S4 Layer 5");
   Resolution=1;
  };
  Plot()
