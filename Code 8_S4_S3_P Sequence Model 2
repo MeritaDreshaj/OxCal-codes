@@ -8,8 +8,8 @@ Options()
   Outlier_Model("IA",Prior("Charcoal_Plus"),U(0,3),"t");
   Sequence(S4)
   {
-   Boundary("Start S4 Layer 2");
-   Phase("S4 Layer 2")
+   Boundary("Start S4 Layer 2/3");
+   Phase("S4 Layer 2/3")
    {
     R_Date("GrA-38188", 5230, 40)
     {
@@ -19,11 +19,11 @@ Options()
     {
      Outlier("General", 0.05);
     };
-    Span("Span S4 Layer 2");
+    Span("Span S4 Layer 2/3");
     Interval("Interval S4 Layer 2");
    };
-   Boundary("End S4 Layer 2");
-   Boundary("Hiatus layer 3 & 4");
+   Boundary("End S4 Layer 2/3");
+   Boundary("Hiatus layer 4");
    Boundary("Start Layer 5");
    Phase("S4 Layer 5")
    {
