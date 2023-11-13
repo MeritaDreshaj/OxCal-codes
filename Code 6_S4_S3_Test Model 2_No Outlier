@@ -6,8 +6,8 @@ Options()
  {
   Sequence(S4)
   {
-   Boundary("Start S4 Layer 2");
-   Phase("S4 Layer 2")
+   Boundary("Start S4 Layer 2/3");
+   Phase("S4 Layer 2/3")
    {
     R_Date("GrA-38188", 5230, 40)
     {
@@ -15,14 +15,14 @@ Options()
     R_Date("GrA-38189", 5340, 45)
     {
     };
-    Span("Span S4 Layer 2");
-    Interval("Interval S4 Layer 2");
-    Sum("Sum S4 Layer 2")
+    Span("Span S4 Layer 2/3");
+    Interval("Interval S4 Layer 2/3");
+    Sum("Sum S4 Layer 2/3")
     {
     };
    };
-   Boundary("End S4 Layer 2");
-   Boundary("Hiatus Layers 3 & 4");
+   Boundary("End S4 Layer 2/3");
+   Boundary("Hiatus Layers 4");
    Boundary("Start S4 Layer 5");
    Phase("S4 Layer 5")
    {
